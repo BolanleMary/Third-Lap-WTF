@@ -1,5 +1,7 @@
-function Button() {
-    return <button> My button component</button>
+function Button(props) {
+    return <button> 
+        {props?.buttonText}
+        </button>
 }
 
 export default Button;
