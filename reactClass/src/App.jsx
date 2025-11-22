@@ -1,18 +1,20 @@
-import './App.css'
-import Button from './Component/button'
-import Card from './Component/card'
+
+import Button from "./Component/button/button";
+import Card from "./Component/card";
 
 function App() {
-  
-
   return (
     <>
-    <Button
-    buttonText ="Register"
-    onClick />
-    <Card/>
-          </>
-  )
+      <Button
+        buttonText="Register"
+        // when you want to write other than a string you use curly bracket {}
+        onClick={() => {}}
+        obj={{}}
+      />
+
+      <Card />
+    </>
+  );
 }
 
-export default App
+export default App;

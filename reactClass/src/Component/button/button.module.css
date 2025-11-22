@@ -1,0 +1,21 @@
+
+.btn{
+    background-color: var(--base-dark);
+    border: none;
+    color: var(--base-white);
+    padding: 13px;
+    cursor: pointer;
+}
+
+/* .btn[data-variant ="secondary"] {
+background-color: orange;
+}*/
+
+.secondaryBtn{
+    background-color: red;
+    border: none;
+    color: var(--base-white);
+    padding: 13px;
+    cursor: pointer;
+}
+
