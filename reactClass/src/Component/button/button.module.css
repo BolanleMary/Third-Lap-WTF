@@ -7,15 +7,15 @@
     cursor: pointer;
 }
 
-/* .btn[data-variant ="secondary"] {
-background-color: orange;
-}*/
+.btn[data-variant ="secondary"] {
+background-color: orange
+}
 
-.secondaryBtn{
+/* .secondaryBtn{
     background-color: red;
     border: none;
     color: var(--base-white);
     padding: 13px;
     cursor: pointer;
-}
+} */
 
